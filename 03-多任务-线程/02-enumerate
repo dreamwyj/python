@@ -1,0 +1,24 @@
+names=["aa","bb","cc"]
+for temp in names:
+    print(temp)
+
+运行结果:
+aa
+bb
+cc
+
+for temp in enumerate(names):
+    print(temp)
+
+运行结果:
+(0,'aa')
+(1,'bb')
+(2,'cc')
+
+for i,name in enumerate(names):
+    print(i,name)
+
+运行结果:
+0 aa
+1 bb
+2 cc
